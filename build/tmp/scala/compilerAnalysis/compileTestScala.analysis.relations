@@ -1,0 +1,12 @@
+products:
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> /Users/kristys/Documents/ZE_assignment/build/classes/scala/test/assignment/SetSpec.class
+binary dependencies:
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> /Users/kristys/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> /Users/kristys/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> /Users/kristys/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.12/3.0.2/f21f3b747d9521c112d1629975194d9b7b4b2e29/scalactic_2.12-3.0.2.jar
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> /Users/kristys/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.12/3.0.2/1a648e84e026318626b65ef2dc48393bd36290d7/scalatest_2.12-3.0.2.jar
+source dependencies:
+external dependencies:
+class names:
+   /Users/kristys/Documents/ZE_assignment/src/test/scala/assignment/SetSpec.scala -> assignment.SetSpec
