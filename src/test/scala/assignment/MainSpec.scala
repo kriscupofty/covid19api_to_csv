@@ -96,7 +96,7 @@ class MainSpec extends FlatSpec with BeforeAndAfterEach with GivenWhenThen {
     When("called the second time with same arguments")
     Main.main(arguments)
 
-    Then("the CSV file should still exists with nothing appended")
+    Then("the CSV file should still exist with nothing appended")
     assert(File(fileName).exists)
     reader = new BufferedReader(new FileReader(fileName))
     line = reader.readLine
@@ -112,7 +112,7 @@ class MainSpec extends FlatSpec with BeforeAndAfterEach with GivenWhenThen {
     arguments = Array[String]("2020-06-20T22:19:30Z", "2020-06-23T22:19:30Z")
     Main.main(arguments)
 
-    Then("the CSV file should still exists with new entries appended")
+    Then("the CSV file should still exist with new entries appended")
     assert(File(fileName).exists)
     reader = new BufferedReader(new FileReader(fileName))
     line = reader.readLine
