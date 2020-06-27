@@ -106,7 +106,8 @@ public class Main {
                 FileWriter fileWriter = new FileWriter(fileName, true);
                 System.out.println("File already exists. Appending to file...");
                 PrintWriter printWriter = new PrintWriter(fileWriter);
-                printWriter.println(CSVString);
+                if(!CSVString.isEmpty())
+                    printWriter.println(CSVString);
                 printWriter.close();
             }
 
